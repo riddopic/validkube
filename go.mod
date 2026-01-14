@@ -1,6 +1,6 @@
 module github.com/komodorio/validkube
 
-go 1.17
+go 1.24.0
 
 require (
 	github.com/aws/aws-lambda-go v1.28.0
@@ -9,7 +9,6 @@ require (
 	github.com/itaysk/kubectl-neat v1.2.0
 	gotest.tools v2.2.0+incompatible
 	sigs.k8s.io/yaml v1.3.0
-
 )
 
 require (
@@ -44,10 +43,10 @@ require (
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/tidwall/sjson v1.0.4 // indirect
 	github.com/ugorji/go/codec v1.1.7 // indirect
-	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a // indirect
-	golang.org/x/net v0.0.0-20210825183410-e898025ed96a // indirect
-	golang.org/x/sys v0.0.0-20220114195835-da31bd327af9 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
